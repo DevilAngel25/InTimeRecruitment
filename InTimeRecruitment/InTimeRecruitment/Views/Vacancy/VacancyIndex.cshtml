@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Vacancies Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>&nbsp;</p>
+<div class="spacerBody">
+    <h2>@ViewBag.Title.</h2>
+    <p>@Html.ActionLink("Create New Vacancy", "VacancyCreate", "Vacancy")</p>
+    <p>&nbsp;</p>
+    <p>@Html.ActionLink("View List of Current Vacancies", "VacancyList", "Vacancy")</p>
+</div>
